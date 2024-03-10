@@ -112,7 +112,7 @@ async function updateUIOnUserLogin() {
 
   hidePageComponents();
 
-  // re-display stories (so that "favorite" stars can appear)
+  // re-display stories (so that "favorite" stars can appear when clicked and remains)
   putStoriesOnPage();
   $allStoriesList.show();
 
